@@ -111,7 +111,7 @@ const isValidPhoneNumber = (phoneNumber) => {
   
 
 // Inicie a conexão do cliente
-client.initialize();
+//client.initialize();
 
 const sleep = (ms) => {
   return new Promise((resolve) => setTimeout(resolve, ms));
